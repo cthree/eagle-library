@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="IFA0245PCB">
+<description>2.45GHz 50 Ohm PCB trace Antenna DN0007</description>
+<smd name="FEED" x="0" y="0.37" dx="0.74" dy="0.46" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND@2" x="-1.23" y="0" dx="1.48" dy="1.1" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND@1" x="-3.33" y="0" dx="1.48" dy="1.1" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<polygon width="0" layer="1" spacing="0.254">
+<vertex x="14.72" y="5.7"/>
+<vertex x="-1.68" y="5.7"/>
+<vertex x="-1.68" y="3.9"/>
+<vertex x="-0.68" y="3.9"/>
+<vertex x="-0.68" y="3.45"/>
+<vertex x="0.23" y="2.13"/>
+<vertex x="0.23" y="0"/>
+<vertex x="-0.23" y="0"/>
+<vertex x="-0.23" y="2.03"/>
+<vertex x="-0.68" y="2.69"/>
+<vertex x="-3.88" y="2.69"/>
+<vertex x="-3.88" y="3.9"/>
+<vertex x="-2.88" y="3.9"/>
+<vertex x="-2.88" y="4.7"/>
+<vertex x="-8.68" y="4.7"/>
+<vertex x="-8.68" y="2.03"/>
+<vertex x="-0.68" y="2.03"/>
+<vertex x="-0.68" y="0"/>
+<vertex x="-1.78" y="0"/>
+<vertex x="-1.78" y="0.74"/>
+<vertex x="-2.78" y="0.74"/>
+<vertex x="-2.78" y="0"/>
+<vertex x="-3.88" y="0"/>
+<vertex x="-3.88" y="0.74"/>
+<vertex x="-10.86" y="0.74"/>
+<vertex x="-10.86" y="6.91"/>
+<vertex x="14.72" y="6.91"/>
+</polygon>
+<text x="-2.54" y="7.62" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="SMALLPCB_245">
+<polygon width="0" layer="1">
+<vertex x="0.9" y="0"/>
+<vertex x="0" y="0"/>
+<vertex x="0" y="4.9"/>
+<vertex x="5" y="4.9"/>
+<vertex x="5" y="2.26"/>
+<vertex x="7" y="2.26"/>
+<vertex x="7" y="4.9"/>
+<vertex x="9.7" y="4.9"/>
+<vertex x="9.7" y="2.26"/>
+<vertex x="11.7" y="2.26"/>
+<vertex x="11.7" y="4.9"/>
+<vertex x="14.4" y="4.9"/>
+<vertex x="14.4" y="0.46"/>
+<vertex x="13.9" y="0.46"/>
+<vertex x="13.9" y="4.4"/>
+<vertex x="12.2" y="4.4"/>
+<vertex x="12.2" y="1.76"/>
+<vertex x="9.2" y="1.76"/>
+<vertex x="9.2" y="4.4"/>
+<vertex x="7.5" y="4.4"/>
+<vertex x="7.5" y="1.76"/>
+<vertex x="4.5" y="1.76"/>
+<vertex x="4.5" y="4.4"/>
+<vertex x="2.8" y="4.4"/>
+<vertex x="2.8" y="0"/>
+<vertex x="2.3" y="0"/>
+<vertex x="2.3" y="4.4"/>
+<vertex x="0.9" y="4.4"/>
+</polygon>
+<smd name="FEED" x="2.55" y="-0.25" dx="0.5" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="0.45" y="-0.25" dx="0.9" dy="0.5" layer="1" stop="no" thermals="no" cream="no"/>
+<text x="0" y="5.08" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIPOLE">
+<description>Dipole Trace Antenna</description>
+<pin name="RFP" x="-2.54" y="2.54" visible="off" length="short" swaplevel="1"/>
+<pin name="RFN" x="-2.54" y="0" visible="off" length="short" swaplevel="1"/>
+<wire x1="0" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MONOPOLE">
+<description>Inverted "F" 2.4Ghz PCB Trace Antenna per DN0007</description>
+<pin name="A" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="GND" x="0" y="0" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="1.27" y="7.62" size="2.1844" layer="95" font="vector" rot="R270">&gt;NAME</text>
+<text x="6.35" y="-2.54" size="2.1844" layer="96" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="10.922" width="0.254" layer="94"/>
+<wire x1="0" y1="10.922" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IFA_DN0007" prefix="A">
+<description>Inverted "F" 2.45GHz PCB Trace Antenna - DN0007</description>
+<gates>
+<gate name="G$1" symbol="MONOPOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IFA0245PCB">
+<connects>
+<connect gate="G$1" pin="A" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="IFA, 2.45GHz, 50Ohm, +3.3dB - DN0007" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AN043" prefix="A">
+<gates>
+<gate name="G$1" symbol="MONOPOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMALLPCB_245">
+<connects>
+<connect gate="G$1" pin="A" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

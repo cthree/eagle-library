@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="3">
+<description>3mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-1.625" y1="-1.625" x2="1.625" y2="-1.625" width="0.127" layer="51"/>
+<wire x1="1.625" y1="-1.625" x2="1.625" y2="1" width="0.127" layer="51"/>
+<wire x1="1.625" y1="1" x2="1" y2="1.625" width="0.127" layer="51"/>
+<wire x1="1" y1="1.625" x2="-1" y2="1.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.625" x2="-1.625" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.625" y1="1" x2="-1.625" y2="-1.625" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-1.125" y="-1" curve="90"/>
+<vertex x="1.125" y="-1"/>
+</polygon>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="51"/>
+<smd name="P" x="0" y="1.5" dx="1.6" dy="2.2" layer="1"/>
+<smd name="N" x="0" y="-1.5" dx="1.6" dy="2.2" layer="1"/>
+<wire x1="1" y1="1.625" x2="1.625" y2="1" width="0.127" layer="21"/>
+<wire x1="1.625" y1="1" x2="1.625" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="1.625" y1="-1.625" x2="1" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.625" x2="-1.625" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.625" y1="1" x2="-1.625" y2="-1.625" width="0.127" layer="21"/>
+<wire x1="-1.625" y1="-1.625" x2="-1" y2="-1.625" width="0.127" layer="21"/>
+<text x="1" y="1.625" size="1.27" layer="21" ratio="15">+</text>
+<text x="-2" y="-1.75" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="3.25" y="-1.75" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+</package>
+<package name="4">
+<description>4mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-2.125" y1="-2.125" x2="2.125" y2="-2.125" width="0.127" layer="51"/>
+<wire x1="2.125" y1="-2.125" x2="2.125" y2="1.25" width="0.127" layer="51"/>
+<wire x1="2.125" y1="1.25" x2="1.25" y2="2.125" width="0.127" layer="51"/>
+<wire x1="1.25" y1="2.125" x2="-1.25" y2="2.125" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="2.125" x2="-2.125" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-2.125" y1="1.25" x2="-2.125" y2="-2.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-1.5" y="-1.25" curve="90"/>
+<vertex x="1.5" y="-1.25"/>
+</polygon>
+<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
+<smd name="P" x="0" y="1.8" dx="1.6" dy="2.6" layer="1"/>
+<smd name="N" x="0" y="-1.8" dx="1.6" dy="2.6" layer="1"/>
+<wire x1="1.25" y1="2.125" x2="2.125" y2="1.25" width="0.127" layer="21"/>
+<wire x1="2.125" y1="1.25" x2="2.125" y2="-2.125" width="0.127" layer="21"/>
+<wire x1="2.125" y1="-2.125" x2="1.125" y2="-2.125" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2.125" x2="-2.125" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="1.25" x2="-2.125" y2="-2.125" width="0.127" layer="21"/>
+<wire x1="-2.125" y1="-2.125" x2="-1.125" y2="-2.125" width="0.127" layer="21"/>
+<text x="1.125" y="2.125" size="1.27" layer="21" ratio="15">+</text>
+<text x="-2.5" y="-2.125" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="3.75" y="-2.25" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-1.25" y1="2.125" x2="-1.125" y2="2.125" width="0.127" layer="21"/>
+<wire x1="1.25" y1="2.125" x2="1.125" y2="2.125" width="0.127" layer="21"/>
+</package>
+<package name="5">
+<description>5mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-2.625" y1="-2.625" x2="2.625" y2="-2.625" width="0.127" layer="51"/>
+<wire x1="2.625" y1="-2.625" x2="2.625" y2="1.75" width="0.127" layer="51"/>
+<wire x1="2.625" y1="1.75" x2="1.75" y2="2.625" width="0.127" layer="51"/>
+<wire x1="1.75" y1="2.625" x2="-1.75" y2="2.625" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="2.625" x2="-2.625" y2="1.75" width="0.127" layer="51"/>
+<wire x1="-2.625" y1="1.75" x2="-2.625" y2="-2.625" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-1.875" y="-1.625" curve="90"/>
+<vertex x="1.875" y="-1.625"/>
+</polygon>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
+<smd name="P" x="0" y="2.2" dx="1.6" dy="3" layer="1"/>
+<smd name="N" x="0" y="-2.2" dx="1.6" dy="3" layer="1"/>
+<wire x1="1.75" y1="2.625" x2="2.625" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.625" y1="1.75" x2="2.625" y2="-2.625" width="0.127" layer="21"/>
+<wire x1="2.625" y1="-2.625" x2="1.125" y2="-2.625" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.625" x2="-2.625" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-2.625" y1="1.75" x2="-2.625" y2="-2.625" width="0.127" layer="21"/>
+<wire x1="-2.625" y1="-2.625" x2="-1.125" y2="-2.625" width="0.127" layer="21"/>
+<text x="1.125" y="2.625" size="1.27" layer="21" ratio="15">+</text>
+<text x="-3" y="-2.75" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="4.25" y="-2.75" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-1.75" y1="2.625" x2="-1.125" y2="2.625" width="0.127" layer="21"/>
+<wire x1="1.75" y1="2.625" x2="1.125" y2="2.625" width="0.127" layer="21"/>
+</package>
+<package name="6_3">
+<description>6.3mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-3.25" y1="-3.25" x2="3.25" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="-3.25" x2="3.25" y2="2.25" width="0.127" layer="51"/>
+<wire x1="3.25" y1="2.25" x2="2.25" y2="3.25" width="0.127" layer="51"/>
+<wire x1="2.25" y1="3.25" x2="-2.25" y2="3.25" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="3.25" x2="-3.25" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="2.25" x2="-3.25" y2="-3.25" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.25" y="-2.125" curve="90"/>
+<vertex x="2.25" y="-2.125"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
+<smd name="P" x="0" y="2.55" dx="1.6" dy="3.5" layer="1"/>
+<smd name="N" x="0" y="-2.55" dx="1.6" dy="3.5" layer="1"/>
+<wire x1="2.25" y1="3.25" x2="3.25" y2="2.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="2.25" x2="3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-3.25" x2="1.125" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="3.25" x2="-3.25" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="2.25" x2="-3.25" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-1.125" y2="-3.25" width="0.127" layer="21"/>
+<text x="1.125" y="3.25" size="1.27" layer="21" ratio="15">+</text>
+<text x="-3.75" y="-3.25" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="5" y="-3.375" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-2.25" y1="3.25" x2="-1.125" y2="3.25" width="0.127" layer="21"/>
+<wire x1="2.25" y1="3.25" x2="1.125" y2="3.25" width="0.127" layer="21"/>
+</package>
+<package name="8">
+<description>8mmx5.5mm and 8mmx6.2mm SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-4.125" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="4.125" y1="-4.125" x2="4.125" y2="2.875" width="0.127" layer="51"/>
+<wire x1="4.125" y1="2.875" x2="2.875" y2="4.125" width="0.127" layer="51"/>
+<wire x1="2.875" y1="4.125" x2="-2.875" y2="4.125" width="0.127" layer="51"/>
+<wire x1="-2.875" y1="4.125" x2="-4.125" y2="2.875" width="0.127" layer="51"/>
+<wire x1="-4.125" y1="2.875" x2="-4.125" y2="-4.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.75" y="-2.875" curve="90"/>
+<vertex x="2.75" y="-2.875"/>
+</polygon>
+<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
+<smd name="P" x="0" y="3.05" dx="2.5" dy="4" layer="1"/>
+<smd name="N" x="0" y="-3.05" dx="2.5" dy="4" layer="1"/>
+<wire x1="2.875" y1="4.125" x2="4.125" y2="2.875" width="0.127" layer="21"/>
+<wire x1="4.125" y1="2.875" x2="4.125" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="4.125" y1="-4.125" x2="1.625" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-2.875" y1="4.125" x2="-4.125" y2="2.875" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="2.875" x2="-4.125" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="-4.125" x2="-1.625" y2="-4.125" width="0.127" layer="21"/>
+<text x="1.625" y="4.125" size="1.27" layer="21" ratio="15">+</text>
+<text x="-4.625" y="-4.125" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="5.875" y="-4.125" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-2.875" y1="4.125" x2="-1.625" y2="4.125" width="0.127" layer="21"/>
+<wire x1="2.875" y1="4.125" x2="1.625" y2="4.125" width="0.127" layer="21"/>
+</package>
+<package name="8X10">
+<description>8mmx10mm SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-4.125" y1="-4.125" x2="4.125" y2="-4.125" width="0.127" layer="51"/>
+<wire x1="4.125" y1="-4.125" x2="4.125" y2="2.75" width="0.127" layer="51"/>
+<wire x1="4.125" y1="2.75" x2="2.75" y2="4.125" width="0.127" layer="51"/>
+<wire x1="2.75" y1="4.125" x2="-2.75" y2="4.125" width="0.127" layer="51"/>
+<wire x1="-2.75" y1="4.125" x2="-4.125" y2="2.75" width="0.127" layer="51"/>
+<wire x1="-4.125" y1="2.75" x2="-4.125" y2="-4.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.75" y="-2.875" curve="90"/>
+<vertex x="2.75" y="-2.875"/>
+</polygon>
+<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
+<smd name="P" x="0" y="3.25" dx="2.5" dy="3.5" layer="1"/>
+<smd name="N" x="0" y="-3.25" dx="2.5" dy="3.5" layer="1"/>
+<wire x1="2.75" y1="4.125" x2="4.125" y2="2.75" width="0.127" layer="21"/>
+<wire x1="4.125" y1="2.75" x2="4.125" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="4.125" y1="-4.125" x2="1.625" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-2.75" y1="4.125" x2="-4.125" y2="2.75" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="2.75" x2="-4.125" y2="-4.125" width="0.127" layer="21"/>
+<wire x1="-4.125" y1="-4.125" x2="-1.625" y2="-4.125" width="0.127" layer="21"/>
+<text x="1.625" y="4.25" size="1.27" layer="21" ratio="15">+</text>
+<text x="-4.5" y="-4.125" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="5.875" y="-4.125" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-2.75" y1="4.125" x2="-1.625" y2="4.125" width="0.127" layer="21"/>
+<wire x1="2.75" y1="4.125" x2="1.625" y2="4.125" width="0.127" layer="21"/>
+</package>
+<package name="10">
+<description>10mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-5.125" y1="-5.125" x2="5.125" y2="-5.125" width="0.127" layer="51"/>
+<wire x1="5.125" y1="-5.125" x2="5.125" y2="3.5" width="0.127" layer="51"/>
+<wire x1="5.125" y1="3.5" x2="3.5" y2="5.125" width="0.127" layer="51"/>
+<wire x1="3.5" y1="5.125" x2="-3.5" y2="5.125" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="5.125" x2="-5.125" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-5.125" y1="3.5" x2="-5.125" y2="-5.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-3.375" y="-3.625" curve="90"/>
+<vertex x="3.375" y="-3.625"/>
+</polygon>
+<circle x="0" y="0" radius="5" width="0.127" layer="51"/>
+<smd name="P" x="0" y="4" dx="2.5" dy="4" layer="1"/>
+<smd name="N" x="0" y="-4" dx="2.5" dy="4" layer="1"/>
+<wire x1="3.5" y1="5.125" x2="5.125" y2="3.5" width="0.127" layer="21"/>
+<wire x1="5.125" y1="3.5" x2="5.125" y2="-5.125" width="0.127" layer="21"/>
+<wire x1="5.125" y1="-5.125" x2="1.625" y2="-5.125" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="5.125" x2="-5.125" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-5.125" y1="3.5" x2="-5.125" y2="-5.125" width="0.127" layer="21"/>
+<wire x1="-5.125" y1="-5.125" x2="-1.625" y2="-5.125" width="0.127" layer="21"/>
+<text x="1.625" y="5.25" size="1.27" layer="21" ratio="15">+</text>
+<text x="-5.625" y="-5" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="6.875" y="-5.125" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-3.5" y1="5.125" x2="-1.625" y2="5.125" width="0.127" layer="21"/>
+<wire x1="3.5" y1="5.125" x2="1.625" y2="5.125" width="0.127" layer="21"/>
+</package>
+<package name="12.5">
+<description>12.5mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-6.5" y1="-6.375" x2="6.5" y2="-6.375" width="0.127" layer="51"/>
+<wire x1="6.5" y1="-6.375" x2="6.5" y2="4" width="0.127" layer="51"/>
+<wire x1="6.5" y1="4" x2="4" y2="6.5" width="0.127" layer="51"/>
+<wire x1="4" y1="6.5" x2="-4" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-4" y1="6.5" x2="-6.5" y2="4" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="4" x2="-6.5" y2="-6.375" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-4.375" y="-4.375" curve="90"/>
+<vertex x="4.375" y="-4.375"/>
+</polygon>
+<circle x="0" y="0" radius="6.25" width="0.127" layer="51"/>
+<smd name="P" x="0" y="7.25" dx="4" dy="7.5" layer="1"/>
+<smd name="N" x="0" y="-7.25" dx="4" dy="7.5" layer="1"/>
+<wire x1="4" y1="6.5" x2="6.5" y2="4" width="0.127" layer="21"/>
+<wire x1="6.5" y1="4" x2="6.5" y2="-6.375" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-6.375" x2="2.375" y2="-6.375" width="0.127" layer="21"/>
+<wire x1="-4" y1="6.5" x2="-6.5" y2="4" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="4" x2="-6.5" y2="-6.375" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-6.375" x2="-2.375" y2="-6.375" width="0.127" layer="21"/>
+<text x="2.5" y="6.875" size="1.27" layer="21" ratio="15">+</text>
+<text x="-7" y="-6.25" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="8.25" y="-6.375" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-4" y1="6.5" x2="-2.375" y2="6.5" width="0.127" layer="21"/>
+<wire x1="4" y1="6.5" x2="2.375" y2="6.5" width="0.127" layer="21"/>
+</package>
+<package name="16">
+<description>16mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-8.125" y1="-8.125" x2="8.125" y2="-8.125" width="0.127" layer="51"/>
+<wire x1="8.125" y1="-8.125" x2="8.125" y2="5.625" width="0.127" layer="51"/>
+<wire x1="8.125" y1="5.625" x2="5.625" y2="8.125" width="0.127" layer="51"/>
+<wire x1="5.625" y1="8.125" x2="-5.625" y2="8.125" width="0.127" layer="51"/>
+<wire x1="-5.625" y1="8.125" x2="-8.125" y2="5.625" width="0.127" layer="51"/>
+<wire x1="-8.125" y1="5.625" x2="-8.125" y2="-8.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-5.625" y="-5.625" curve="90"/>
+<vertex x="5.625" y="-5.625"/>
+</polygon>
+<circle x="0" y="0" radius="8" width="0.127" layer="51"/>
+<smd name="P" x="0" y="9" dx="6" dy="8.5" layer="1"/>
+<smd name="N" x="0" y="-9" dx="6" dy="8.5" layer="1"/>
+<wire x1="5.625" y1="8.125" x2="8.125" y2="5.625" width="0.127" layer="21"/>
+<wire x1="8.125" y1="5.625" x2="8.125" y2="-8.125" width="0.127" layer="21"/>
+<wire x1="8.125" y1="-8.125" x2="3.5" y2="-8.125" width="0.127" layer="21"/>
+<wire x1="-5.625" y1="8.125" x2="-8.125" y2="5.625" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="5.625" x2="-8.125" y2="-8.125" width="0.127" layer="21"/>
+<wire x1="-8.125" y1="-8.125" x2="-3.5" y2="-8.125" width="0.127" layer="21"/>
+<text x="3.625" y="8.875" size="1.27" layer="21" ratio="15">+</text>
+<text x="-8.875" y="-8" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="10.125" y="-8.125" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-5.625" y1="8.125" x2="-3.5" y2="8.125" width="0.127" layer="21"/>
+<wire x1="5.625" y1="8.125" x2="3.5" y2="8.125" width="0.127" layer="21"/>
+</package>
+<package name="18">
+<description>18mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-9.125" y1="-9.125" x2="9.125" y2="-9.125" width="0.127" layer="51"/>
+<wire x1="9.125" y1="-9.125" x2="9.125" y2="6" width="0.127" layer="51"/>
+<wire x1="9.125" y1="6" x2="6" y2="9.125" width="0.127" layer="51"/>
+<wire x1="6" y1="9.125" x2="-6" y2="9.125" width="0.127" layer="51"/>
+<wire x1="-6" y1="9.125" x2="-9.125" y2="6" width="0.127" layer="51"/>
+<wire x1="-9.125" y1="6" x2="-9.125" y2="-9.125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-6.375" y="-6.25" curve="90"/>
+<vertex x="6.375" y="-6.25"/>
+</polygon>
+<circle x="0" y="0" radius="9" width="0.127" layer="51"/>
+<smd name="P" x="0" y="10" dx="6" dy="9.5" layer="1"/>
+<smd name="N" x="0" y="-10" dx="6" dy="9.5" layer="1"/>
+<wire x1="6" y1="9.125" x2="9.125" y2="6" width="0.127" layer="21"/>
+<wire x1="9.125" y1="6" x2="9.125" y2="-9.125" width="0.127" layer="21"/>
+<wire x1="9.125" y1="-9.125" x2="3.375" y2="-9.125" width="0.127" layer="21"/>
+<wire x1="-6" y1="9.125" x2="-9.125" y2="6" width="0.127" layer="21"/>
+<wire x1="-9.125" y1="6" x2="-9.125" y2="-9.125" width="0.127" layer="21"/>
+<wire x1="-9.125" y1="-9.125" x2="-3.375" y2="-9.125" width="0.127" layer="21"/>
+<text x="3.875" y="10.375" size="1.27" layer="21" ratio="15">+</text>
+<text x="-10" y="-9.125" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="11.25" y="-9.125" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-6" y1="9.125" x2="-3.5" y2="9.125" width="0.127" layer="21"/>
+<wire x1="6" y1="9.125" x2="3.5" y2="9.125" width="0.127" layer="21"/>
+</package>
+<package name="20">
+<description>20mm Dia. SMD Aluminum Electrolytic Capacitor&lt;p&gt;
+&lt;a href="http://nichicon-us.com/english/products/pdfs/e-ch_ref.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-10.25" y1="-10.25" x2="10.25" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="10.25" y1="-10.25" x2="10.25" y2="7" width="0.127" layer="51"/>
+<wire x1="10.25" y1="7" x2="7" y2="10.25" width="0.127" layer="51"/>
+<wire x1="7" y1="10.25" x2="-7" y2="10.25" width="0.127" layer="51"/>
+<wire x1="-7" y1="10.25" x2="-10.25" y2="7" width="0.127" layer="51"/>
+<wire x1="-10.25" y1="7" x2="-10.25" y2="-10.25" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-7.125" y="-7" curve="90"/>
+<vertex x="7.125" y="-7"/>
+</polygon>
+<circle x="0" y="0" radius="10" width="0.127" layer="51"/>
+<smd name="P" x="0" y="11" dx="6" dy="9.5" layer="1"/>
+<smd name="N" x="0" y="-11" dx="6" dy="9.5" layer="1"/>
+<wire x1="7" y1="10.25" x2="10.25" y2="7" width="0.127" layer="21"/>
+<wire x1="10.25" y1="7" x2="10.25" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="10.25" y1="-10.25" x2="3.375" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="-7" y1="10.25" x2="-10.25" y2="7" width="0.127" layer="21"/>
+<wire x1="-10.25" y1="7" x2="-10.25" y2="-10.25" width="0.127" layer="21"/>
+<wire x1="-10.25" y1="-10.25" x2="-3.375" y2="-10.25" width="0.127" layer="21"/>
+<text x="4" y="11.625" size="1.27" layer="21" ratio="15">+</text>
+<text x="-11" y="-9.75" size="1.27" layer="25" ratio="15" rot="R90">&gt;NAME</text>
+<text x="12.25" y="-9.75" size="1.27" layer="27" ratio="15" rot="R90">&gt;VALUE</text>
+<wire x1="-7" y1="10.25" x2="-3.375" y2="10.25" width="0.127" layer="21"/>
+<wire x1="7" y1="10.25" x2="3.375" y2="10.25" width="0.127" layer="21"/>
+</package>
+<package name="5RAL">
+<pad name="P" x="-2" y="0" drill="1.016" shape="square"/>
+<pad name="N" x="2" y="0" drill="1.016"/>
+<circle x="0" y="0" radius="5" width="0.254" layer="21"/>
+<wire x1="1" y1="2" x2="3" y2="2" width="0.254" layer="21"/>
+<text x="0" y="5.715" size="1.27" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.985" size="1.27" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CP">
+<description>Capacitor, polorized</description>
+<pin name="P" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="N" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="1.5748" y1="-1.905" x2="1.5748" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.5748" y1="0" x2="1.5748" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.5748" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.9398" y2="0" width="0.1524" layer="94"/>
+<text x="1.1938" y="-2.4892" size="1.27" layer="96" font="vector" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="1.1176" y="2.5146" size="1.778" layer="95" rot="SR0" align="bottom-center">&gt;NAME</text>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="-1.905" width="0.1524" layer="94" curve="-45"/>
+<text x="2.286" y="-2.032" size="1.27" layer="94">+</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="UWT1A151MCL1GS" prefix="C">
+<description>150uF, ±20%, 10V, 105°C, SMD Aluminum Electrolytic Capacitor, ø 6.3mm. x 5.8mm L</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6_3">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="150uF, 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UCZ1C101MCL6GS" prefix="C">
+<description>100uF, ±20%, 16V, 125°C, SMD Aluminum Electrolytic Capacitor, ø 6.3mm. x 7.7mm L, 99mA Ripple</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6_3">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="100uF, 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ULV2G100MNL1GS" prefix="C">
+<description>10uF, ±20%, 400V, 105°C, SMD Aluminum Electrolytic Capacitor, ø 10mm. x 14.5mm L, 55mA Ripple</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="10uF, 400V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT1C471MNL1GS" prefix="C">
+<description>470uF, ±20%, 16V, 105°C, SMD Aluminum Electrolytic Capacitor, ø 8mm. x 10mm L, 230mA Ripple</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8X10">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="470uF, 400V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT1C101MCL1GB" prefix="C">
+<description>100uF, ±20%, 16V, 105°C, SMD Aluminum Electrolytic Capacitor, ø 6.3mm. x 5.4mm L, 60mA Ripple</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6_3">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="100uF, 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT1H100MCL1GB" prefix="C">
+<description>10uF, ±20%, 50V, 105°C, SMD Aluminum Electrolytic Capacitor, ø 6.3mm. x 5.4mm L, 30mA Ripple</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6_3">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="10uF, 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UWT1V100MCL1GB" prefix="C">
+<description>10uF, ±20%, 35V, 105°C, SMD Aluminum Electrolytic Capacitor, ø 5mm. x 5.4mm L, 25mA Ripple</description>
+<gates>
+<gate name="G$1" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5">
+<connects>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="10uF, 35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UPW*-?" prefix="C" uservalue="yes">
+<description>&lt;b&gt;5mm Diameter Radial Aluminium Electrolytic Capacitor&lt;b&gt;</description>
+<gates>
+<gate name="A" symbol="CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="5MM" package="5RAL">
+<connects>
+<connect gate="A" pin="N" pad="N"/>
+<connect gate="A" pin="P" pad="P"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="C" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="V" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="1V100MDD">
+<attribute name="C" value="10uF" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="V" value="35V" constant="no"/>
+<attribute name="VALUE" value="10uF, 35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

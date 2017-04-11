@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="15-0402">
+<description>&lt;b&gt;Murata *15 Size 0402 Land Pattern&lt;/b&gt;&lt;p&gt;
+&lt;a href="http://www.murata.com/products/catalog/pdf/c02e.pdf"&gt;Murata Chip Capacitor Catalog, p154, table 2&lt;/a&gt;</description>
+<smd name="1" x="-0.45" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.5" dy="0.6" layer="1"/>
+<wire x1="-0.25" y1="-0.25" x2="-0.25" y2="0.25" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.25" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.25" y1="0.25" x2="0.25" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.25" y1="-0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.25" y2="0.25" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="-0.25" x2="0.25" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.25" y1="0.25" x2="-0.25" y2="0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<text x="1.47" y="-0.6" size="1.27" layer="25" ratio="15" rot="SR0">&gt;NAME</text>
+<text x="-1.2954" y="-0.6" size="1.27" layer="27" ratio="15" rot="SR0" align="bottom-right">&gt;VALUE</text>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.127" layer="21"/>
+</package>
+<package name="18-0603">
+<description>&lt;b&gt;Murata *18 Size 0603 Land Pattern&lt;/b&gt;&lt;p&gt;
+&lt;a href="http://www.murata.com/products/catalog/pdf/c02e.pdf"&gt;Murata Chip Capacitor Catalog, p130, table 2&lt;/a&gt;</description>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.9" layer="1" roundness="10"/>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.9" layer="1" roundness="10"/>
+<text x="0" y="1.016" size="1.27" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.424" y1="0.635" x2="1.424" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.424" y1="0.635" x2="1.424" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.424" y1="-0.635" x2="-1.424" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.424" y1="-0.635" x2="-1.424" y2="0.635" width="0.127" layer="21"/>
+<text x="0" y="-1.016" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.4" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="-0.4" y1="-0.4" x2="0.4" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.4" y1="-0.4" x2="0.8" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="0.8" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.4" y2="0.4" width="0.127" layer="51"/>
+<wire x1="0.4" y1="0.4" x2="-0.4" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-0.4" y1="0.4" x2="-0.8" y2="0.4" width="0.127" layer="51"/>
+<wire x1="-0.4" y1="0.4" x2="-0.4" y2="-0.4" width="0.127" layer="51"/>
+<wire x1="0.4" y1="0.4" x2="0.4" y2="-0.4" width="0.127" layer="51"/>
+</package>
+<package name="LQM2HP-1008">
+<smd name="1" x="-1.15" y="0" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2" x="1.15" y="0" dx="0.7" dy="1.5" layer="1"/>
+<wire x1="-1.905" y1="1.27" x2="1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25" ratio="15">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27" ratio="15">&gt;VALUE</text>
+</package>
+<package name="21-0805">
+<description>&lt;b&gt;Murata *21 Size 0805 Land Pattern&lt;/b&gt;&lt;p&gt;
+&lt;a href="http://www.murata.com/products/catalog/pdf/c02e.pdf"&gt;Murata Chip Capacitor Catalog, p130, table 2&lt;/a&gt;</description>
+<smd name="1" x="-1.2" y="0" dx="1.2" dy="1.3" layer="1" roundness="2"/>
+<smd name="2" x="1.2" y="0" dx="1.2" dy="1.3" layer="1"/>
+<wire x1="-0.5556" y1="-0.6112" x2="-0.5556" y2="0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="-0.5556" y1="0.6112" x2="-1.1176" y2="0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="-1.1176" y1="-0.6112" x2="-0.5556" y2="-0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="0.5556" y1="0.6112" x2="0.5556" y2="-0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="0.5556" y1="-0.6112" x2="1.1176" y2="-0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="-0.5556" y1="-0.6112" x2="0.5556" y2="-0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="1.1176" y1="-0.6112" x2="1.1176" y2="0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="1.1176" y1="0.6112" x2="0.5556" y2="0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="0.5556" y1="0.6112" x2="-0.5556" y2="0.6112" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="-1.1176" y1="0.6112" x2="-1.1176" y2="-0.6112" width="0.1524" layer="51" style="shortdash"/>
+<text x="0" y="1.27" size="1.27" layer="25" font="vector" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-2.005" y1="0.8795" x2="-2.005" y2="-0.8795" width="0.127" layer="21"/>
+<wire x1="-2.005" y1="-0.8795" x2="2.005" y2="-0.8795" width="0.127" layer="21"/>
+<wire x1="2.005" y1="-0.8795" x2="2.005" y2="0.8795" width="0.127" layer="21"/>
+<wire x1="2.005" y1="0.8795" x2="-2.005" y2="0.8795" width="0.127" layer="21"/>
+</package>
+<package name="31-1206">
+<description>&lt;b&gt;Murata *31 Size 1206 Land Pattern&lt;/b&gt;&lt;p&gt;
+&lt;a href="http://www.murata.com/products/catalog/pdf/c02e.pdf"&gt;Murata Chip Capacitor Catalog, p154, table 2&lt;/a&gt;</description>
+<smd name="1" x="-1.65" y="0" dx="1.3" dy="1.7" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.3" dy="1.7" layer="1"/>
+<wire x1="-0.9398" y1="-0.8144" x2="-0.9398" y2="0.8144" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="0.8144" x2="-1.7018" y2="0.8144" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="-0.8144" x2="-0.9398" y2="-0.8144" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="0.9398" y1="0.8144" x2="0.9398" y2="-0.8144" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.8144" x2="1.7018" y2="0.8144" width="0.1524" layer="51" style="shortdash"/>
+<wire x1="1.7018" y1="0.8144" x2="0.9398" y2="0.8144" width="0.1524" layer="51"/>
+<wire x1="-0.9398" y1="-0.8144" x2="0.9398" y2="-0.8144" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="-0.8144" x2="1.7018" y2="-0.8144" width="0.1524" layer="51"/>
+<wire x1="0.9398" y1="0.8144" x2="-0.9398" y2="0.8144" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.8144" x2="-1.7018" y2="-0.8144" width="0.1524" layer="51" style="shortdash"/>
+<text x="0" y="1.778" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="1.27" layer="27" font="vector" rot="SR0" align="top-center">&gt;VALUE</text>
+<wire x1="-2.54" y1="1.07" x2="-2.54" y2="-1.07" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.07" x2="2.54" y2="-1.07" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.07" x2="2.54" y2="1.07" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.07" x2="-2.54" y2="1.07" width="0.127" layer="21"/>
+</package>
+<package name="DLW5BT-2020">
+<smd name="P$1" x="-2" y="2" dx="1.3" dy="1.7" layer="1"/>
+<smd name="P$2" x="2" y="2" dx="1.3" dy="1.7" layer="1"/>
+<smd name="P$3" x="2" y="-2" dx="1.3" dy="1.7" layer="1"/>
+<smd name="P$4" x="-2" y="-2" dx="1.3" dy="1.7" layer="1"/>
+</package>
+<package name="C0603">
+<description>0603 Ceramic Chip Capacitor (Murata GRM)&lt;p&gt;
+&lt;a href="http://www.murata.com/products/catalog/pdf/c02e.pdf"&gt;Catalog and Specs&lt;/a&gt; See page 130</description>
+<smd name="1" x="-0.825" y="0" dx="0.85" dy="0.7" layer="1" roundness="10"/>
+<smd name="2" x="0.825" y="0" dx="0.85" dy="0.7" layer="1" roundness="10"/>
+<text x="1.905" y="-0.635" size="1.27" layer="25" font="fixed" ratio="15" rot="SR0">&gt;NAME</text>
+<wire x1="-1.524" y1="0.635" x2="1.524" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.524" y1="0.635" x2="1.524" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.524" y1="-0.635" x2="-1.524" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="-0.635" x2="-1.524" y2="0.635" width="0.127" layer="21"/>
+<text x="-1.651" y="-0.635" size="1.27" layer="27" ratio="15" align="bottom-right">&gt;VALUE</text>
+<wire x1="-0.9398" y1="0.3556" x2="-0.4572" y2="0.3556" width="0.127" layer="51"/>
+<wire x1="-0.4572" y1="0.3556" x2="0.4572" y2="0.3556" width="0.127" layer="51"/>
+<wire x1="0.4572" y1="0.3556" x2="0.9652" y2="0.3556" width="0.127" layer="51"/>
+<wire x1="0.9652" y1="0.3556" x2="0.9652" y2="-0.3302" width="0.127" layer="51"/>
+<wire x1="0.9652" y1="-0.3302" x2="0.4572" y2="-0.3302" width="0.127" layer="51"/>
+<wire x1="0.4572" y1="-0.3302" x2="-0.4572" y2="-0.3302" width="0.127" layer="51"/>
+<wire x1="-0.4572" y1="-0.3302" x2="-0.9398" y2="-0.3302" width="0.127" layer="51"/>
+<wire x1="-0.9398" y1="-0.3302" x2="-0.9398" y2="0.3556" width="0.127" layer="51"/>
+<wire x1="-0.4572" y1="0.3556" x2="-0.4572" y2="-0.3302" width="0.127" layer="51"/>
+<wire x1="0.4572" y1="0.3556" x2="0.4572" y2="-0.3302" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPH">
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.1524" layer="94"/>
+<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.1524" layer="94"/>
+<text x="3.7338" y="-2.4892" size="1.27" layer="96" font="vector" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="3.6576" y="2.5146" size="1.778" layer="95" rot="SR0" align="bottom-center">&gt;NAME</text>
+<wire x1="3.175" y1="1.905" x2="3.175" y2="-1.905" width="0.1524" layer="94" curve="-45"/>
+</symbol>
+<symbol name="IND">
+<pin name="P$1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
+<text x="-5.08" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-1.27" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+</symbol>
+<symbol name="C">
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.1524" layer="94"/>
+<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.152265625" y2="0" width="0.1524" layer="94"/>
+<text x="3.7338" y="-2.4892" size="1.27" layer="96" font="vector" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="3.6576" y="2.5146" size="1.778" layer="95" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
+<wire x1="3.175" y1="1.905" x2="3.175" y2="-1.905" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="L">
+<text x="0" y="2.286" size="1.778" layer="95" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="1.27" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<wire x1="-3.556" y1="0" x2="-1.524" y2="-1.016" width="0.1524" layer="94" curve="-233.130102"/>
+<wire x1="-1.524" y1="-1.016" x2="0" y2="-1.016" width="0.1524" layer="94" curve="-286.260205"/>
+<wire x1="0" y1="-1.016" x2="1.524" y2="-1.016" width="0.1524" layer="94" curve="-286.260205"/>
+<wire x1="1.524" y1="-1.016" x2="3.556" y2="0" width="0.1524" layer="94" curve="-233.130102"/>
+<wire x1="-3.556" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="CP">
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="1.5748" y1="-1.905" x2="1.5748" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.5748" y1="0" x2="1.5748" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="1.5748" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.9398" y2="0" width="0.1524" layer="94"/>
+<text x="1.1938" y="-2.4892" size="1.27" layer="96" font="vector" rot="SR0" align="top-center">&gt;VALUE</text>
+<text x="1.1176" y="2.5146" size="1.778" layer="95" rot="SR0" align="bottom-center">&gt;NAME</text>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="-1.905" width="0.1524" layer="94" curve="-45"/>
+<text x="2.286" y="-2.032" size="1.27" layer="94">+</text>
+</symbol>
+<symbol name="WB_CAPACITOR">
+<pin name="1" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="0.762" y1="-3.048" x2="0.762" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="3.048" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0.762" y1="0" x2="7.62" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-0.762" y1="-3.048" x2="-0.762" y2="3.048" width="0.1524" layer="94" style="shortdash"/>
+<text x="-4.7244" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-5.6642" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="CMCHOKE">
+<description>Common Mode Choke</description>
+<text x="4.953" y="0" size="1.27" layer="96" font="vector" rot="R90" align="top-center">&gt;VALUE</text>
+<pin name="3" x="7.62" y="-7.62" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="4" x="-7.62" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-3.556" y1="-2.54" x2="-1.524" y2="-3.556" width="0.1524" layer="94" curve="-233.130102"/>
+<wire x1="-1.524" y1="-3.556" x2="0" y2="-3.556" width="0.1524" layer="94" curve="-286.260205"/>
+<wire x1="0" y1="-3.556" x2="1.524" y2="-3.556" width="0.1524" layer="94" curve="-286.260205"/>
+<wire x1="1.524" y1="-3.556" x2="3.556" y2="-2.54" width="0.1524" layer="94" curve="-233.130102"/>
+<text x="-6.604" y="0" size="1.778" layer="95" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<pin name="1" x="-7.62" y="7.62" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="7.62" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<wire x1="3.556" y1="2.54" x2="1.524" y2="3.556" width="0.1524" layer="94" curve="-233.130102"/>
+<wire x1="1.524" y1="3.556" x2="0" y2="3.556" width="0.1524" layer="94" curve="-286.260205"/>
+<wire x1="0" y1="3.556" x2="-1.524" y2="3.556" width="0.1524" layer="94" curve="-286.260205"/>
+<wire x1="-1.524" y1="3.556" x2="-3.556" y2="2.54" width="0.1524" layer="94" curve="-233.130102"/>
+<wire x1="-3.556" y1="-0.508" x2="3.556" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="0.508" x2="3.556" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="2.54" x2="-3.556" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="2.54" x2="3.556" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="7.62" x2="5.334" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="-2.54" x2="3.556" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-2.54" x2="-3.556" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-7.62" x2="-5.08" y2="-7.62" width="0.1524" layer="94"/>
+<circle x="-5.08" y="2.54" radius="0.254" width="0.508" layer="94"/>
+<circle x="-5.08" y="-2.54" radius="0.254" width="0.508" layer="94"/>
+</symbol>
+<symbol name="FB">
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.1524" layer="94" curve="-110.01596"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94" curve="-110.01596"/>
+<wire x1="6.858" y1="1.27" x2="6.858" y2="-1.27" width="0.1524" layer="94" curve="-110.01596"/>
+<wire x1="2.54" y1="1.27" x2="6.858" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="6.858" y2="-1.27" width="0.1524" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95" font="fixed" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="96" font="fixed" align="top-center">&gt;VALUE</text>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.1524" layer="94" curve="-81.202589"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="94" curve="-81.202589"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="oc" swaplevel="1"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GRM155R60J225ME" prefix="C">
+<description>CAPACITOR, 0402, 2.2uF</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SUPPLIER" value="Murata" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VOLTAGERATING" value="6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM155R60G475ME" prefix="C">
+<description>CAPACITOR, 0402, 4.7uF</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SUPPLIER" value="Murata" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VOLTAGERATING" value="4V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM155R60J105KE19D" prefix="C">
+<description>CAPACITOR, 0402, 1uF</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SUPPLIER" value="Murata" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VOLTAGERATING" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQG15HS1N0S02D" prefix="L">
+<description>1nH Inductor, 0402</description>
+<gates>
+<gate name="G$1" symbol="IND" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="1nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQG15HS2N0S02D" prefix="L">
+<description>2nH Inductor, 0402</description>
+<gates>
+<gate name="G$1" symbol="IND" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TOLERANCE" value="±0.3nH" constant="no"/>
+<attribute name="VALUE" value="2nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQG15HS6N8J02D" prefix="L">
+<description>6.8nH Inductor, 0402</description>
+<gates>
+<gate name="G$1" symbol="IND" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="6.8nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQG15HN4N7S02D" prefix="L">
+<description>4.7nH Inductor, 0402</description>
+<gates>
+<gate name="A" symbol="IND" x="-7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="15-0402">
+<connects>
+<connect gate="A" pin="P$1" pad="1"/>
+<connect gate="A" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="TOLERANCE" value="±0.3nH" constant="no"/>
+<attribute name="VALUE" value="4.7nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM18*" prefix="C">
+<description>Murata Chip Capacitor 0603 Size</description>
+<gates>
+<gate name="A" symbol="C" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="18-0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="85C1H100JA01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="C0G,NP0" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10pF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="85C1H120JA01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="C0G,NP0" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="12pF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="85C1H8R0DZ01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="C0G,NP0" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5pF" constant="no"/>
+<attribute name="VALUE" value="8pF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="85C1HR50CZ01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="C0G,NP0" constant="no"/>
+<attribute name="TOLERANCE" value="±0.25pF" constant="no"/>
+<attribute name="VALUE" value="0.5pF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="8R60J106ME47">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3V" constant="no"/>
+</technology>
+<technology name="8R60J475ME19">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±20%" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+<attribute name="VOLTAGE" value="6.3V" constant="no"/>
+</technology>
+<technology name="8R61E105KA12">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X5R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+<technology name="8R71E104KA01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.1uF"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+<technology name="8R71H102KA01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1nF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="8R71H103KA01">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="8R71H333KA61">
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="TEMPCO" value="X7R" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="33nF" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQM2HP*">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQM2HPNR47MG0" prefix="L">
+<description>LQM2HPNR47MG0 0.47uH Chip Inductor 1008 Size</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQM2HP-1008">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM21BR71H105KA12L" prefix="C">
+<gates>
+<gate name="A" symbol="C" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="21-0805">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAP" value="1.0E-6" constant="no"/>
+<attribute name="ESR" value="0.0" constant="no"/>
+<attribute name="IRMS" value="0.0" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="MuRata" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM21BR71H105KA12L" constant="no"/>
+<attribute name="VALUE" value="1uF, 50V, 0R" constant="no"/>
+<attribute name="VDC" value="50.0" constant="no"/>
+<attribute name="VENDOR" value="MuRata" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM31CR71H475KA12L" prefix="C">
+<gates>
+<gate name="A" symbol="C" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="31-1206">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAP" value="4.7E-6" constant="no"/>
+<attribute name="ESR" value="0.0" constant="no"/>
+<attribute name="IRMS" value="0.0" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="MuRata" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM31CR71H475KA12L" constant="no"/>
+<attribute name="VALUE" value="4.7uF, 50V, 0R" constant="no"/>
+<attribute name="VDC" value="50.0" constant="no"/>
+<attribute name="VENDOR" value="MuRata" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DLW5*" prefix="L">
+<gates>
+<gate name="A" symbol="CMCHOKE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DLW5BT-2020">
+<connects>
+<connect gate="A" pin="1" pad="P$1"/>
+<connect gate="A" pin="2" pad="P$2"/>
+<connect gate="A" pin="3" pad="P$3"/>
+<connect gate="A" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="BTN501SQ2">
+<attribute name="VALUE" value="500Z 4A 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQM?*" prefix="L">
+<description>&lt;p&gt;&lt;b&gt;Murata Multilayer Ferrite Core Power Inductor (Chip Coil)&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.murata.com/products/catalog/pdf/o05e.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="18F" package="18-0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQG?*" prefix="L">
+<description>&lt;p&gt;&lt;b&gt;Murata LQG*H Series Multilayer Non-magnetic RF Inductor&lt;/b&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="18" package="18-0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="HN2N7S00">
+<attribute name="L" value="2.7nH" constant="no"/>
+<attribute name="Q" value="12" constant="no"/>
+<attribute name="SRF" value="6000Mhz" constant="no"/>
+<attribute name="VALUE" value="2n7H" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLM18SG" prefix="FB">
+<description>&lt;b&gt;Murata EMIFIL Inductor Type Chip Ferrite Bead (0603 Size)&lt;/b&gt;&lt;p&gt;
+&lt;a href="http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0100BLM18S.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="FB" x="-5.08" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="A" package="18-0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="121TN1"/>
+<technology name="221TN1"/>
+<technology name="260TN1"/>
+<technology name="331TN1"/>
+<technology name="700TN1"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
